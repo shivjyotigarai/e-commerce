@@ -36,8 +36,6 @@ const OrderScreen = ({ history }) => {
 
   const userLogin = useSelector((state) => state.loginDetail);
   const { userInfo } = userLogin;
-  console.log("user info in order screen");
-  console.log(userInfo);
   const user = JSON.parse(localStorage.getItem("userInfo"));
   const token = user.token;
   useEffect(() => {

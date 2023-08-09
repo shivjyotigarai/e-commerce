@@ -14,7 +14,6 @@ let isInitial2 = true;
 const PaymentScreen = ({ history }) => {
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cartDetail);
-  //   const history = useHistory();
   const { shippingAddress } = cart;
   const userLogin = useSelector((state) => state.loginDetail);
   const user = JSON.parse(localStorage.getItem("userInfo")); // from the local storage
