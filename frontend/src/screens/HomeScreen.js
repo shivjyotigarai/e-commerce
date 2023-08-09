@@ -21,8 +21,6 @@ const HomeScreen = () => {
   const userLogin = useSelector((state) => state.loginDetail);
   const user = JSON.parse(localStorage.getItem("userInfo")); // from the local storage
   const { userInfo } = userLogin;
-  console.log("USER INFO");
-  console.log(userInfo);
   if (userInfo.data) console.log(userInfo.data.user.name);
   const cart = useSelector((state) => state.cart);
   useEffect(() => {
@@ -43,8 +41,6 @@ const HomeScreen = () => {
       dispatch(loginViaToken(token));
     }
   }, []);
-  console.log("PROD");
-  console.log(products);
   return (
     <>
       {loading ? (
