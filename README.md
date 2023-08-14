@@ -2,6 +2,10 @@
 
 A full stack e-commerce website built using the mern stack designed with Chakra-UI and React Bootstrap.
 
+# Hosted Link
+
+https://pg-connect.onrender.com/
+
 # Images
 
 Home Page :-
