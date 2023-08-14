@@ -4,7 +4,7 @@ A full stack e-commerce website built using the mern stack designed with Chakra-
 
 # Hosted Link
 
-https://pg-connect.onrender.com/
+https://newbright.onrender.com
 
 # Images
 
